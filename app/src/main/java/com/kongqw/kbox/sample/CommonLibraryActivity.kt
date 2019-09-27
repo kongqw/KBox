@@ -16,5 +16,10 @@ class CommonLibraryActivity : AppCompatActivity() {
     /**
      * IntentUtils.ktt 测试入口
      */
-    fun onIntentUtil(view: View) = startActivity(Intent(applicationContext, IntentUtilActivity::class.java))
+    fun onIntentUtils(view: View) = startActivity(Intent(applicationContext, IntentUtilsActivity::class.java))
+
+    /**
+     * FileUtils.ktt 测试入口
+     */
+    fun onFileUtils(view: View) = startActivity(Intent(applicationContext, FileUtilsActivity::class.java))
 }

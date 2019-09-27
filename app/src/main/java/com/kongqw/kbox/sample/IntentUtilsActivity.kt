@@ -8,11 +8,11 @@ import com.kongqw.kbox.R
 import com.kongqw.kbox.common.IntentUtils
 import java.io.File
 
-class IntentUtilActivity : AppCompatActivity() {
+class IntentUtilsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_intent_util)
+        setContentView(R.layout.activity_intent_utils)
     }
 
     fun onOpenSystemCamera(view:View){

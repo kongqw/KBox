@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kongqw.kbox">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:name=".sample.MyApplication"
         android:allowBackup="true"
@@ -10,9 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".sample.NetworkLibraryActivity"></activity>
+        <activity android:name=".sample.FileUtilsActivity"/>
+        <activity android:name=".sample.NetworkLibraryActivity" />
         <activity android:name=".sample.UILibraryActivity" />
-        <activity android:name=".sample.IntentUtilActivity" />
+        <activity android:name=".sample.IntentUtilsActivity" />
         <activity android:name=".sample.CommonLibraryActivity" />
         <activity android:name=".sample.MainActivity">
             <intent-filter>

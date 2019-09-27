@@ -4,26 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sample.CommonLibraryActivity">
+    tools:context=".sample.IntentUtilsActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <androidx.appcompat.widget.AppCompatButton
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onIntentUtils"
-            android:text="IntentUtils.kt"
-            android:textAllCaps="false" />
+            android:onClick="onOpenSystemCamera"
+            android:text="打开系统相机" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onFileUtils"
-            android:text="FileUtils.kt"
-            android:textAllCaps="false" />
+            android:onClick="onOpenSystemAlbum"
+            android:text="打开系统相册" />
 
     </LinearLayout>
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sample.IntentUtilActivity">
+    tools:context=".sample.FileUtilsActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,14 +14,14 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onOpenSystemCamera"
-            android:text="打开系统相机" />
+            android:onClick="onFileWrite"
+            android:text="文件写入" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onOpenSystemAlbum"
-            android:text="打开系统相册" />
+            android:onClick="onFileRead"
+            android:text="文件读取" />
 
     </LinearLayout>
 
