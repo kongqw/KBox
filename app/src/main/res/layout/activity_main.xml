@@ -25,6 +25,13 @@
             android:text="UILibrary测试入口"
             android:textAllCaps="false" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onNetworkLibrary"
+            android:text="NetworkLibrary测试入口"
+            android:textAllCaps="false" />
+
     </LinearLayout>
 
 </ScrollView>

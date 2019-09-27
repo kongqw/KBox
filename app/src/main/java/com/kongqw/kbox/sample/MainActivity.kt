@@ -22,4 +22,9 @@ class MainActivity : AppCompatActivity() {
      * UILibrary测试入口
      */
     fun onUILibrary(view: View) = startActivity(Intent(applicationContext, UILibraryActivity::class.java))
+
+    /**
+     * NetworkLibrary测试入口
+     */
+    fun onNetworkLibrary(view: View) = startActivity(Intent(applicationContext, NetworkLibraryActivity::class.java))
 }

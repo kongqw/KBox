@@ -1,2 +1,2 @@
-include ':app', ':common', ':ui'
+include ':app', ':common', ':ui', ':network'
 rootProject.name='KBox'
